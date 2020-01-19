@@ -61,6 +61,7 @@ struct VehicleResponseView: View {
                         }
                     }
                 }
+                .animation(Animation.easeIn(duration: 0.1))
                 .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
             }
         }
